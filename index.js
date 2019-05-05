@@ -8,4 +8,4 @@ app.use(function(req, res, next) {
 });
 app.get('/kps', (req, res) => res.json(Math.floor(Math.random() * (2 - 0 + 1) + 0)))
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(port, () => console.log(`KPS backend application listening on port ${port}!`))
